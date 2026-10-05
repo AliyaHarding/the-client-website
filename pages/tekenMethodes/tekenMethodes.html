@@ -11,25 +11,25 @@
 </head>
 
 <body>
-    <header>
-        <section>
+    <header class="flex padding2 justify-between alignItem-center">
+        <section class="flex justify-around gap2 alignItem-center">
             <a href="/index.html">
                 <img src="/assets/Logo.png" alt="Logo Visual Thinking">
             </a>
             <nav>
-                <ul>
+                <ul class="flex gap4">
                     <li class="dropdown">
                         <a href="#">Oefenen</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="">Tekenmethodes</a></li>
-                            <li><a href="">Cursussen</a></li>
+                        <ul class="dropdown-menu padding1 absolute">
+                            <li><a href="tekenMethodes.html">Tekenmethodes</a></li>
+                            <li><a href="#">Cursussen</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#">Verdiepen</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="">Kennisclips</a></li>
-                            <li><a href="">Artikelen</a></li>
+                        <ul class="dropdown-menu padding1 absolute">
+                            <li><a href="#">Kennisclips</a></li>
+                            <li><a href="#">Artikelen</a></li>
                         </ul>
                     </li>
                     <li>
@@ -42,25 +42,25 @@
             </nav>
         </section>
 
-        <section>
+        <section class="flex alignItem-center gap4">
             <nav>
-                <ul>
+                <ul class="flex gap1">
                     <li>
                         <a href="#">
-                            <img src="/assets/search.png" alt="search">
+                            <img src="/assets/search.png" alt="search" class="icon">
                         </a>
                     </li>
                     <li><a href="#">
-                            <img src="/assets/Profile.png" alt="profile">
+                            <img src="/assets/Profile.png" alt="profile" class="icon">
                         </a>
                     </li>
                     <li><a href="#">
-                            <img src="/assets/favorite.png" alt="favorite">
+                            <img src="/assets/favorite.png" alt="favorite" class="icon">
                         </a>
                     </li>
                 </ul>
             </nav>
-            <button>Materiaal indienen</button>
+            <button class="btn yellow padding1">Materiaal indienen</button>
         </section>
     </header>
 </body>

@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+}
+
+header{
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.btn {
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    display: none;
+    background-color: rgb(244, 243, 243);
+}
+
+.dropdown-menu>li:first-child {
+    margin-bottom: 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
