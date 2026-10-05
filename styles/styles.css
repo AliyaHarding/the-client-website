@@ -156,6 +156,14 @@ h1, h2, h3, p, a, button{
     gap: 2em;
 }
 
+.gap3{
+    gap: 3em;
+}
+
+.gap4{
+    gap: 4em;
+}
+
 .padding1{
     padding: 1em;
 }
@@ -170,4 +178,19 @@ h1, h2, h3, p, a, button{
 
 .margin2{
     margin: 2em;
+}
+
+/* link styling */
+
+a{
+    text-decoration: none;
+}
+
+a:hover, a:active, a:visited{
+    color: var(--darkBlue);
+}
+
+/* button stiling */
+button{
+    border: none;
 }
