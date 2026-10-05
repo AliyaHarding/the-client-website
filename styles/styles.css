@@ -128,3 +128,46 @@
 .flex-wrapReverse{
     flex-wrap: wrap-reverse;
 }
+
+/* Color scheme */
+
+h1, h2, h3, p, a, button{
+    color: var(--darkBlue);
+}
+
+.lightblue{
+    background-color: var(--lightBlue);
+}
+
+.red{
+    background-color: var(--red);
+}
+
+.yellow{
+    background-color: var(--yellow);
+}
+
+/* Spacing */
+.gap1{
+    gap: 1em;
+}
+
+.gap2{
+    gap: 2em;
+}
+
+.padding1{
+    padding: 1em;
+}
+
+.padding2{
+    padding: 2em;
+}
+
+.margin1{
+    margin: 1em;
+}
+
+.margin2{
+    margin: 2em;
+}
