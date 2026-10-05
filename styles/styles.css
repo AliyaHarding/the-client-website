@@ -1,1 +1,130 @@
 /* CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Custom variables */
+:root{
+    --darkBlue: #090940;
+    --lightBlue: #67c5d1;
+    --red: #f96c4f;
+    --yellow: #feb51e;
+}
+
+/* CSS layouts */
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-rowReverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-columnReverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.grid{
+    display: grid;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+/* Justify-content */
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-start{
+    justify-content: start;
+}
+
+.justify-end{
+    justify-content: end;
+}
+
+/* Align-items */
+.alignItem-center{
+    align-items: center;
+}
+
+.alignItem-end{
+    align-items: end;
+}
+
+.alignItem-start{
+    align-items: start;
+}
+
+/* Align-self */
+.alignSelf-start{
+    align-self: start;
+}
+
+.alignSelf-center{
+    align-self: center;
+}
+
+.alignSelf-end{
+    align-self: end;
+}
+
+/* Align-content  !ONLY USE IF THERE IS MORE THAN ONE LINE!*/
+.alignContent-start{
+    align-content: start;
+}
+
+.alignContent-center{
+    align-content: center;
+}
+
+.alignContent-end{
+    align-content: end;
+}
+
+.alignContent-around{
+    align-content: space-around;
+}
+
+.alignContent-between{
+    align-content: space-between;
+}
+
+/* Flex wrap */
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+
+.flex-wrapReverse{
+    flex-wrap: wrap-reverse;
+}
