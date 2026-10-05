@@ -172,6 +172,10 @@ h1, h2, h3, p, a, button{
     padding: 2em;
 }
 
+.padding3{
+    padding: 3em;
+}
+
 .margin1{
     margin: 1em;
 }
