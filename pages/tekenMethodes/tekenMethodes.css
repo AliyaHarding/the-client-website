@@ -2,6 +2,7 @@ ul {
     list-style-type: none;
 }
 
+/* specific tekenmethode header styling */
 header{
     border-bottom: 1px solid rgb(235, 235, 235);
 }
@@ -28,4 +29,34 @@ header{
 .icon {
     width: 20px;
     height: 20px;
+}
+
+/* specific main styling */
+main{
+    row-gap: 2em;
+}
+
+.breadcrumb > li:not(:last-child)::after{
+    content: ">";
+    color: var(--darkBlue);
+    margin-left: 20px;
+}
+
+.breadcrumb > li:last-child{
+    font-weight: bold;
+}
+
+.search-bar{
+    border: 1px solid rgb(235, 235, 235);
+}
+input::placeholder{
+    font-size: 15px;
+}
+
+input{
+    border: none;
+}
+
+.search-bar > img:last-child{
+    margin-left: auto;
 }
