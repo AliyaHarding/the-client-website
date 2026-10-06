@@ -31,6 +31,11 @@ header{
     height: 20px;
 }
 
+.icon2{
+    width: 30px;
+    height: 30px;
+}
+
 /* specific main styling */
 main{
     row-gap: 2em;
@@ -71,3 +76,11 @@ input[type="text"]{
     margin-left: auto;
 }
 
+.filters > article > div{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.filters > article > a{
+    text-align: center;
+}
