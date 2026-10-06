@@ -180,6 +180,10 @@ h1, h2, h3, p, a, button{
     padding: 3em;
 }
 
+.padding4{
+    padding: 4em;
+}
+
 .margin1{
     margin: 1em;
 }
