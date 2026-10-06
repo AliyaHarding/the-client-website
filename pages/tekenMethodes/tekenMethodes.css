@@ -39,8 +39,13 @@ header{
 }
 
 .icon2{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.icon3{
+    width: 35px;
+    height: 35px;
 }
 
 /* specific main styling */
@@ -97,7 +102,7 @@ input[type="text"]{
 }
 
 .white{
-    color: #F3F3F6;
+    color: #F3F3F6 !important;
 }
 
 .video-widget > img{
@@ -137,4 +142,25 @@ input[type="text"]{
 
 .leer-reflecteer-red{
     margin-bottom: 7em;
+}
+
+/* specific footer styling */
+
+.ftr{
+    padding-left: 17em !important;
+    padding-right: 17em !important;
+}
+
+.title-ftr-link{
+    font-size: 20px;
+    color: var(--yellow) !important;
+}
+
+.sub-ftr-link{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.cpy-right{
+    font-size: 15px;
 }
