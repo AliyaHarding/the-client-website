@@ -7,6 +7,13 @@ header{
     border-bottom: 1px solid rgb(235, 235, 235);
 }
 
+.hdr, .main{
+    padding-left: 7em !important;
+    padding-right: 7em !important;
+}
+
+
+
 .btn {
     padding-left: 2em !important;
     padding-right: 2em !important;
@@ -32,8 +39,8 @@ header{
 }
 
 .icon2{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 /* specific main styling */
@@ -83,4 +90,43 @@ input[type="text"]{
 
 .filters > article > a{
     text-align: center;
+}
+
+.filters{
+    margin-bottom: 7em;
+}
+
+.white{
+    color: #F3F3F6;
+}
+
+.video-widget > img{
+    height: auto;
+    width: 100%;
+}
+
+.sizing > div > img{
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.sizing > div> a{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.grid-template{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+
+.stroomschema{
+    grid-column:  3/5;
+    grid-row:  2/4;
+}
+
+.quote{
+    text-align: center;
+    grid-column: 1/3;
 }
