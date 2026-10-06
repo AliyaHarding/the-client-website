@@ -135,6 +135,10 @@ h1, h2, h3, p, a, button{
     color: var(--darkBlue);
 }
 
+.darkblue{
+    background-color: var(--darkBlue);
+}
+
 .lightblue{
     background-color: var(--lightBlue);
 }
